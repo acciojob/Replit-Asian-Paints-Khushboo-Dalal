@@ -9,25 +9,25 @@
 <body>
 	<!-- the entire body must be written by student -->
 
-	 <div id="grid-contain">
-      <div id="1" class="grid-container">1</div>
-      <div id="2" class="grid-container">2</div>
-      <div id="3" class="grid-container">3</div>
-      <div id="4" class="grid-container">4</div>
-      <div id="5" class="grid-container">5</div>
-      <div id="6" class="grid-container">6</div>
-      <div id="7" class="grid-container">7</div>
-      <div id="8" class="grid-container">8</div>
-      <div id="9" class="grid-container">9</div>
+
+
+	 <input type="text" placeholder="Enter block id" id="block_id">
+    <input type="text" placeholder="Enter colour id" id="colour_id">
+
+    <button id="change_button">Change</button>
+    <button id="reset_button">Reset</button>
+
+    <div class="grid-container">
+        <div class="grid-item" id="1">1</div>
+        <div class="grid-item" id="2">2</div>
+        <div class="grid-item" id="3">3</div>
+        <div class="grid-item" id="4">4</div>
+        <div class="grid-item" id="5">5</div>
+        <div class="grid-item" id="6">6</div>
+        <div class="grid-item" id="7">7</div>
+        <div class="grid-item" id="8">8</div>
+        <div class="grid-item" id="9">9</div>
     </div>
-    <form>
-      <label for="block_id">Enter Block ID Number :</label>
-      <input type="text" maxlength="1" id="block_id" name="block_id"><br><br>
-      <label for="colour_id">Choose Color:</label>
-      <input type="color" id="colour_id" name="colour_id"><br><br>
-      <input type="button" value="Change Color" onclick="changeColor()">
-      <input type="button" value="Reset" onclick="resetColors()">
-    </form>
 	
     <script type="text/javascript" src="./script.js">
 </script>
